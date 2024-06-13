@@ -43,7 +43,7 @@ if (isset($_GET['id'])) {
             <li><a href="sport.php">Sport</a></li>
             <li><a href="kultura.php">Kultura</a></li>
             <li><a href="unos.php">Unos vijesti</a></li>
-            <li><a href="administracija.php">Administracija</a></li>
+            <li><a href="administrator.php">Administracija</a></li>
             <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true): ?>
                 <li><a href="logout.php">Odjava</a></li>
             <?php endif; ?>
