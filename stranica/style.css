@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+header h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0056b3;
+    border-bottom: 1px solid #004494;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #004494;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.content {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+    }
+}
+.content.form-content {
+    width: 60%;
+}
+.form-item {
+    margin-bottom: 20px;
+}
+.form-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-item input[type="text"],
+.form-item textarea,
+.form-item select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-item input[type="file"] {
+    padding: 10px 0;
+}
+.form-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.form-item.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.form-item button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-item button:hover {
+    background-color: #004494;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 40px;
+    border-top: 1px solid #004494;
+}
+.img {
+    width: 33%;
+    height: auto;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.home-vijest{
+    width: 30%;
+
+}
+.sport{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    
+}
+.kultura{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.sport_img{
+    
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.content.article-content {
+    width: 60%;
+}
+.article-content{
+    width: 60%;
+}
+.article-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0056b3;
+    color: white;
+    margin-top: 40px;
+    border-top: 1px solid #004494;
+}
+.bojaPoruke {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+nav ul li a[href="logout.php"] {
+    background-color: red;
+    color: white;
+}
+
+nav ul li a[href="logout.php"]:hover {
+    background-color: darkred;
+}
+
+.title-kategorija{
+    width: 70%;
+    margin-left: 30%;
+}
